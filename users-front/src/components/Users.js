@@ -121,7 +121,7 @@ function Users() {
                 <input type="text" className="form-control" id="input-username" />
                 <br />
                 <label for="input-group" className="form-label">Group</label>
-                <input list="groups" className="form-control" id="input-group" />
+                <input list="groups" className="form-control" id="input-group" autocomplete="off" />
               </div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
